@@ -3,8 +3,8 @@ import '../../tooltip/index.mjs';
 import '../../dropdown/index.mjs';
 import { buildProps } from '../../../utils/vue/props/runtime.mjs';
 import { useTooltipTriggerProps } from '../../tooltip/src/trigger.mjs';
-import { dropdownProps } from '../../dropdown/src/dropdown2.mjs';
-import { useTooltipContentProps } from '../../tooltip/src/content.mjs';
+import { dropdownProps } from '../../dropdown/src/dropdown.mjs';
+import { useTooltipContentProps } from '../../tooltip/src/content2.mjs';
 import { isBoolean } from '@vueuse/core';
 
 const popoverProps = buildProps({

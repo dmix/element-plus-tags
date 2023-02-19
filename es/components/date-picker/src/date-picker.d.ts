@@ -166,10 +166,10 @@ declare const _default: import("vue").DefineComponent<{
     modelValue: import("../../../utils").EpPropMergeType<(new (...args: any[]) => import("element-plus/es/components/time-picker").ModelValueType & {}) | (() => import("element-plus/es/components/time-picker").ModelValueType) | ((new (...args: any[]) => import("element-plus/es/components/time-picker").ModelValueType & {}) | (() => import("element-plus/es/components/time-picker").ModelValueType))[], unknown, unknown>;
     validateEvent: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     editable: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    placeholder: string;
     popperClass: string;
     popperOptions: Partial<import("@popperjs/core").Options>;
     clearable: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    placeholder: string;
     readonly: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     prefixIcon: import("../../../utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) & {}) | (() => string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) | ((new (...args: any[]) => (string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) & {}) | (() => string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>))[], unknown, unknown>;
     tabindex: import("../../../utils").EpPropMergeType<(new (...args: any[]) => (string | number) & {}) | (() => string | number) | ((new (...args: any[]) => (string | number) & {}) | (() => string | number))[], unknown, unknown>;

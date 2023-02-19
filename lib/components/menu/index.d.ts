@@ -37,9 +37,9 @@ export declare const ElMenu: import("element-plus/es/utils").SFCWithInstall<impo
     onSelect?: ((index: string, indexPath: string[], item: import("./src/types").MenuItemClicked, routerResult?: Promise<void | import("vue-router").NavigationFailure> | undefined) => any) | undefined;
     onOpen?: ((index: string, indexPath: string[]) => any) | undefined;
 }, {
-    readonly mode: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly ellipsis: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly collapse: boolean;
+    readonly mode: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly defaultActive: string;
     readonly defaultOpeneds: string[];
     readonly menuTrigger: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "hover" | "click", unknown>;

@@ -159,8 +159,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly description: import("../../../utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
     readonly status: import("../../../utils").EpPropFinalized<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown, "", boolean>;
 }>>, {
-    readonly description: string;
     readonly title: string;
+    readonly description: string;
     readonly status: import("../../../utils").EpPropMergeType<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown>;
 }>;
 export default _default;

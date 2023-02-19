@@ -98,8 +98,8 @@ export declare const ElDialog: import("element-plus/es/utils").SFCWithInstall<im
         readonly showClose: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly title: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onClose?: (() => any) | undefined;
+        "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onOpen?: (() => any) | undefined;
         onOpened?: (() => any) | undefined;
         onClosed?: (() => any) | undefined;
@@ -202,7 +202,7 @@ export declare const ElDialog: import("element-plus/es/utils").SFCWithInstall<im
         };
     }, {
         onKeydown: (e: KeyboardEvent) => void;
-    }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, ("focusin" | "focusout" | "focusAfterTrapped" | "focusAfterReleased" | "focusout-prevented" | "release-requested")[], "focusin" | "focusout" | "focusAfterTrapped" | "focusAfterReleased" | "focusout-prevented" | "release-requested", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, ("focusAfterTrapped" | "focusAfterReleased" | "focusin" | "focusout" | "focusout-prevented" | "release-requested")[], "focusAfterTrapped" | "focusAfterReleased" | "focusin" | "focusout" | "focusout-prevented" | "release-requested", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
         loop: BooleanConstructor;
         trapped: BooleanConstructor;
         focusTrapEl: import("vue").PropType<HTMLElement>;
@@ -429,8 +429,8 @@ export declare const ElDialog: import("element-plus/es/utils").SFCWithInstall<im
     readonly showClose: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     readonly title: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onClose?: (() => any) | undefined;
+    "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onOpen?: (() => any) | undefined;
     onOpened?: (() => any) | undefined;
     onClosed?: (() => any) | undefined;

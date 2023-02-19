@@ -21,7 +21,7 @@ declare const defaultProps: {
     stripe: BooleanConstructor;
     tooltipEffect: StringConstructor;
     tooltipOptions: {
-        type: PropType<Partial<Pick<import("../../..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+        type: PropType<Partial<Pick<import("../../..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     };
     context: {
         default: () => {};

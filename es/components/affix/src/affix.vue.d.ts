@@ -86,8 +86,8 @@ declare const _default: import("vue").DefineComponent<{
     }) => any) | undefined;
 }, {
     readonly zIndex: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("csstype").ZIndexProperty & {}) | (() => import("csstype").ZIndexProperty) | ((new (...args: any[]) => import("csstype").ZIndexProperty & {}) | (() => import("csstype").ZIndexProperty))[], unknown, unknown>;
+    readonly target: string;
     readonly offset: number;
     readonly position: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "top" | "bottom", unknown>;
-    readonly target: string;
 }>;
 export default _default;

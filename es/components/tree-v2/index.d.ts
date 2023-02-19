@@ -296,10 +296,10 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
         onScroll?: ((...args: any[]) => any) | undefined;
         onItemRendered?: ((...args: any[]) => any) | undefined;
     }, {
-        readonly data: any[];
-        readonly direction: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "ltr" | "rtl", never>;
         readonly className: string;
         readonly layout: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", never>;
+        readonly direction: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "ltr" | "rtl", never>;
+        readonly data: any[];
         readonly scrollbarAlwaysOn: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly containerElement: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | Element) & {}) | (() => string | Element) | ((new (...args: any[]) => (string | Element) & {}) | (() => string | Element))[], unknown, unknown>;
         readonly innerElement: import("element-plus/es/utils").EpPropMergeType<readonly [StringConstructor, ObjectConstructor], unknown, unknown>;
@@ -340,7 +340,7 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
             onToggle?: ((node: import("./src/types").TreeNode) => any) | undefined;
             onCheck?: ((node: import("./src/types").TreeNode, checked: import("..").CheckboxValueType) => any) | undefined;
         }>>;
-        emit: ((event: "click", node: import("./src/types").TreeNode, e: MouseEvent) => void) & ((event: "toggle", node: import("./src/types").TreeNode) => void) & ((event: "check", node: import("./src/types").TreeNode, checked: import("..").CheckboxValueType) => void);
+        emit: ((event: "click", node: import("./src/types").TreeNode, e: MouseEvent) => void) & ((event: "check", node: import("./src/types").TreeNode, checked: import("..").CheckboxValueType) => void) & ((event: "toggle", node: import("./src/types").TreeNode) => void);
         tree: import("./src/types").TreeContext | undefined;
         ns: {
             namespace: import("vue").Ref<string>;
@@ -431,11 +431,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
         }>>, {}>> & Record<string, any>;
         ElCheckbox: import("element-plus/es/utils").SFCWithInstall<import("vue").DefineComponent<{
             modelValue: {
-                type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                 default: undefined;
             };
             label: {
-                type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
             };
             indeterminate: BooleanConstructor;
             disabled: BooleanConstructor;
@@ -445,11 +445,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 default: undefined;
             };
             trueLabel: {
-                type: (StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | StringConstructor)[];
                 default: undefined;
             };
             falseLabel: {
-                type: (StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | StringConstructor)[];
                 default: undefined;
             };
             id: {
@@ -467,7 +467,7 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 readonly validator: ((val: unknown) => boolean) | undefined;
                 __epPropKey: true;
             };
-            tabindex: (StringConstructor | NumberConstructor)[];
+            tabindex: (NumberConstructor | StringConstructor)[];
             validateEvent: {
                 type: BooleanConstructor;
                 default: boolean;
@@ -475,11 +475,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
         }, {
             props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
                 modelValue: {
-                    type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 label: {
-                    type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                    type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
                 };
                 indeterminate: BooleanConstructor;
                 disabled: BooleanConstructor;
@@ -489,11 +489,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     default: undefined;
                 };
                 trueLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 falseLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 id: {
@@ -511,14 +511,14 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     readonly validator: ((val: unknown) => boolean) | undefined;
                     __epPropKey: true;
                 };
-                tabindex: (StringConstructor | NumberConstructor)[];
+                tabindex: (NumberConstructor | StringConstructor)[];
                 validateEvent: {
                     type: BooleanConstructor;
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }>>;
             slots: Readonly<{
                 [name: string]: import("vue").Slot | undefined;
@@ -558,11 +558,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
             change: (val: import("..").CheckboxValueType) => boolean;
         }, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
             modelValue: {
-                type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                 default: undefined;
             };
             label: {
-                type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
             };
             indeterminate: BooleanConstructor;
             disabled: BooleanConstructor;
@@ -572,11 +572,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 default: undefined;
             };
             trueLabel: {
-                type: (StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | StringConstructor)[];
                 default: undefined;
             };
             falseLabel: {
-                type: (StringConstructor | NumberConstructor)[];
+                type: (NumberConstructor | StringConstructor)[];
                 default: undefined;
             };
             id: {
@@ -594,14 +594,14 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 readonly validator: ((val: unknown) => boolean) | undefined;
                 __epPropKey: true;
             };
-            tabindex: (StringConstructor | NumberConstructor)[];
+            tabindex: (NumberConstructor | StringConstructor)[];
             validateEvent: {
                 type: BooleanConstructor;
                 default: boolean;
             };
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
         }, {
             disabled: boolean;
             name: string;
@@ -617,11 +617,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
         }>> & {
             CheckboxButton: import("vue").DefineComponent<{
                 modelValue: {
-                    type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 label: {
-                    type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                    type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
                 };
                 indeterminate: BooleanConstructor;
                 disabled: BooleanConstructor;
@@ -631,11 +631,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     default: undefined;
                 };
                 trueLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 falseLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 id: {
@@ -653,7 +653,7 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     readonly validator: ((val: unknown) => boolean) | undefined;
                     __epPropKey: true;
                 };
-                tabindex: (StringConstructor | NumberConstructor)[];
+                tabindex: (NumberConstructor | StringConstructor)[];
                 validateEvent: {
                     type: BooleanConstructor;
                     default: boolean;
@@ -661,11 +661,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
             }, {
                 props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
                     modelValue: {
-                        type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                        type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                         default: undefined;
                     };
                     label: {
-                        type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                        type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
                     };
                     indeterminate: BooleanConstructor;
                     disabled: BooleanConstructor;
@@ -675,11 +675,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                         default: undefined;
                     };
                     trueLabel: {
-                        type: (StringConstructor | NumberConstructor)[];
+                        type: (NumberConstructor | StringConstructor)[];
                         default: undefined;
                     };
                     falseLabel: {
-                        type: (StringConstructor | NumberConstructor)[];
+                        type: (NumberConstructor | StringConstructor)[];
                         default: undefined;
                     };
                     id: {
@@ -697,14 +697,14 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                         readonly validator: ((val: unknown) => boolean) | undefined;
                         __epPropKey: true;
                     };
-                    tabindex: (StringConstructor | NumberConstructor)[];
+                    tabindex: (NumberConstructor | StringConstructor)[];
                     validateEvent: {
                         type: BooleanConstructor;
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -744,11 +744,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 change: (val: import("..").CheckboxValueType) => boolean;
             }, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
                 modelValue: {
-                    type: (BooleanConstructor | StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | BooleanConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 label: {
-                    type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+                    type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
                 };
                 indeterminate: BooleanConstructor;
                 disabled: BooleanConstructor;
@@ -758,11 +758,11 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     default: undefined;
                 };
                 trueLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 falseLabel: {
-                    type: (StringConstructor | NumberConstructor)[];
+                    type: (NumberConstructor | StringConstructor)[];
                     default: undefined;
                 };
                 id: {
@@ -780,14 +780,14 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     readonly validator: ((val: unknown) => boolean) | undefined;
                     __epPropKey: true;
                 };
-                tabindex: (StringConstructor | NumberConstructor)[];
+                tabindex: (NumberConstructor | StringConstructor)[];
                 validateEvent: {
                     type: BooleanConstructor;
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -835,8 +835,8 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxGroupValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxGroupValueType) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxGroupValueType) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -882,8 +882,8 @@ export declare const ElTreeV2: import("element-plus/es/utils").SFCWithInstall<im
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxGroupValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxGroupValueType) => any) | undefined;
             }, {
                 readonly tag: string;
                 readonly disabled: boolean;

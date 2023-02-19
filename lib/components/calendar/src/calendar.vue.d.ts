@@ -144,7 +144,7 @@ declare const _default: import("vue").DefineComponent<{
         _type: import("vue").ComputedRef<"" | "default" | "primary" | "success" | "warning" | "info" | "danger" | "text">;
         _disabled: import("vue").ComputedRef<boolean>;
         shouldAddSpace: import("vue").ComputedRef<boolean>;
-        tag: import("vue").ComputedRef<string>; /** @description select a specific date */
+        tag: import("vue").ComputedRef<string>;
         handleClick: (evt: MouseEvent) => void;
         ElIcon: import("../../../utils").SFCWithInstall<import("vue").DefineComponent<{
             readonly size: {

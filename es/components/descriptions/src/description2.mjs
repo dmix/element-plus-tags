@@ -1,7 +1,7 @@
 import { defineComponent, useSlots, provide, computed, openBlock, createElementBlock, normalizeClass, unref, createElementVNode, renderSlot, createTextVNode, toDisplayString, createCommentVNode, Fragment, renderList, createBlock } from 'vue';
 import '../../../utils/index.mjs';
 import '../../../hooks/index.mjs';
-import ElDescriptionsRow from './descriptions-row2.mjs';
+import ElDescriptionsRow from './descriptions-row.mjs';
 import { descriptionsKey } from './token.mjs';
 import { descriptionProps } from './description.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';

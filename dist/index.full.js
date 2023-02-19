@@ -15958,7 +15958,6 @@
         disabled: _disabled,
         shouldAddSpace
       });
-      console.log(tag);
       return (_ctx, _cache) => {
         return vue.openBlock(), vue.createBlock(vue.resolveDynamicComponent(vue.unref(tag)), {
           ref_key: "_ref",

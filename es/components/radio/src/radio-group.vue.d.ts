@@ -31,8 +31,8 @@ declare const _default: import("vue").DefineComponent<{
         readonly name: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, undefined, boolean>;
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
         onChange?: ((val: string | number | boolean) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: string | number | boolean) => void) & ((event: "change", val: string | number | boolean) => void);
     ns: {
@@ -79,8 +79,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly name: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, undefined, boolean>;
     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     onChange?: ((val: string | number | boolean) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
 }, {
     readonly disabled: boolean;
     readonly name: string;

@@ -3,7 +3,7 @@ import { ElOverlay } from '../../overlay/index.mjs';
 import '../../../hooks/index.mjs';
 import '../../../tokens/index.mjs';
 import '../../focus-trap/index.mjs';
-import ElDialogContent from './dialog-content.mjs';
+import ElDialogContent from './dialog-content2.mjs';
 import { dialogProps, dialogEmits } from './dialog.mjs';
 import { useDialog } from './use-dialog.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';

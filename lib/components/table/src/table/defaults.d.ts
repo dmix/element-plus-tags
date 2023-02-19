@@ -164,9 +164,9 @@ declare const _default: {
         readonly validator: ((val: unknown) => boolean) | undefined;
         __epPropKey: true;
     };
-    width: (StringConstructor | NumberConstructor)[];
-    height: (StringConstructor | NumberConstructor)[];
-    maxHeight: (StringConstructor | NumberConstructor)[];
+    width: (NumberConstructor | StringConstructor)[];
+    height: (NumberConstructor | StringConstructor)[];
+    maxHeight: (NumberConstructor | StringConstructor)[];
     fit: {
         type: BooleanConstructor;
         default: boolean;
@@ -190,13 +190,13 @@ declare const _default: {
     headerCellClassName: PropType<CellCls<any> | undefined>;
     headerCellStyle: PropType<CellStyle<any> | undefined>;
     highlightCurrentRow: BooleanConstructor;
-    currentRowKey: (StringConstructor | NumberConstructor)[];
+    currentRowKey: (NumberConstructor | StringConstructor)[];
     emptyText: StringConstructor;
     expandRowKeys: PropType<any[] | undefined>;
     defaultExpandAll: BooleanConstructor;
     defaultSort: PropType<Sort | undefined>;
     tooltipEffect: StringConstructor;
-    tooltipOptions: PropType<Partial<Pick<import("../../..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    tooltipOptions: PropType<Partial<Pick<import("../../..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     spanMethod: PropType<((data: {
         row: any;
         rowIndex: number;

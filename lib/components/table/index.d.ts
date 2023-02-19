@@ -11,9 +11,9 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         readonly validator: ((val: unknown) => boolean) | undefined;
         __epPropKey: true;
     };
-    width: (StringConstructor | NumberConstructor)[];
-    height: (StringConstructor | NumberConstructor)[];
-    maxHeight: (StringConstructor | NumberConstructor)[];
+    width: (NumberConstructor | StringConstructor)[];
+    height: (NumberConstructor | StringConstructor)[];
+    maxHeight: (NumberConstructor | StringConstructor)[];
     fit: {
         type: BooleanConstructor;
         default: boolean;
@@ -37,13 +37,13 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
     headerCellClassName: import("vue").PropType<import("./src/table/defaults").CellCls<any> | undefined>;
     headerCellStyle: import("vue").PropType<import("./src/table/defaults").CellStyle<any> | undefined>;
     highlightCurrentRow: BooleanConstructor;
-    currentRowKey: (StringConstructor | NumberConstructor)[];
+    currentRowKey: (NumberConstructor | StringConstructor)[];
     emptyText: StringConstructor;
     expandRowKeys: import("vue").PropType<any[] | undefined>;
     defaultExpandAll: BooleanConstructor;
     defaultSort: import("vue").PropType<import("./src/table/defaults").Sort | undefined>;
     tooltipEffect: StringConstructor;
-    tooltipOptions: import("vue").PropType<Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    tooltipOptions: import("vue").PropType<Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     spanMethod: import("vue").PropType<((data: {
         row: any;
         rowIndex: number;
@@ -179,7 +179,7 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
     scrollTo: (options: number | ScrollToOptions, yCoord?: number | undefined) => void;
     setScrollLeft: (left?: number | undefined) => void;
     setScrollTop: (top?: number | undefined) => void;
-}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, ("select" | "select-all" | "expand-change" | "current-change" | "selection-change" | "cell-mouse-enter" | "cell-mouse-leave" | "cell-contextmenu" | "cell-click" | "cell-dblclick" | "row-click" | "row-contextmenu" | "row-dblclick" | "header-click" | "header-contextmenu" | "sort-change" | "filter-change" | "header-dragend")[], "select" | "select-all" | "expand-change" | "current-change" | "selection-change" | "cell-mouse-enter" | "cell-mouse-leave" | "cell-contextmenu" | "cell-click" | "cell-dblclick" | "row-click" | "row-contextmenu" | "row-dblclick" | "header-click" | "header-contextmenu" | "sort-change" | "filter-change" | "header-dragend", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, ("select-all" | "expand-change" | "current-change" | "select" | "selection-change" | "cell-mouse-enter" | "cell-mouse-leave" | "cell-contextmenu" | "cell-click" | "cell-dblclick" | "row-click" | "row-contextmenu" | "row-dblclick" | "header-click" | "header-contextmenu" | "sort-change" | "filter-change" | "header-dragend")[], "select" | "select-all" | "expand-change" | "current-change" | "selection-change" | "cell-mouse-enter" | "cell-mouse-leave" | "cell-contextmenu" | "cell-click" | "cell-dblclick" | "row-click" | "row-contextmenu" | "row-dblclick" | "header-click" | "header-contextmenu" | "sort-change" | "filter-change" | "header-dragend", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
     data: {
         type: import("vue").PropType<any[]>;
         default: () => never[];
@@ -190,9 +190,9 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         readonly validator: ((val: unknown) => boolean) | undefined;
         __epPropKey: true;
     };
-    width: (StringConstructor | NumberConstructor)[];
-    height: (StringConstructor | NumberConstructor)[];
-    maxHeight: (StringConstructor | NumberConstructor)[];
+    width: (NumberConstructor | StringConstructor)[];
+    height: (NumberConstructor | StringConstructor)[];
+    maxHeight: (NumberConstructor | StringConstructor)[];
     fit: {
         type: BooleanConstructor;
         default: boolean;
@@ -216,13 +216,13 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
     headerCellClassName: import("vue").PropType<import("./src/table/defaults").CellCls<any> | undefined>;
     headerCellStyle: import("vue").PropType<import("./src/table/defaults").CellStyle<any> | undefined>;
     highlightCurrentRow: BooleanConstructor;
-    currentRowKey: (StringConstructor | NumberConstructor)[];
+    currentRowKey: (NumberConstructor | StringConstructor)[];
     emptyText: StringConstructor;
     expandRowKeys: import("vue").PropType<any[] | undefined>;
     defaultExpandAll: BooleanConstructor;
     defaultSort: import("vue").PropType<import("./src/table/defaults").Sort | undefined>;
     tooltipEffect: StringConstructor;
-    tooltipOptions: import("vue").PropType<Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    tooltipOptions: import("vue").PropType<Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     spanMethod: import("vue").PropType<((data: {
         row: any;
         rowIndex: number;
@@ -291,10 +291,10 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
 }, {
     lazy: boolean;
     style: import("vue").CSSProperties;
-    data: any[];
-    tableLayout: "auto" | "fixed";
-    border: boolean;
     className: string;
+    border: boolean;
+    tableLayout: "auto" | "fixed";
+    data: any[];
     fit: boolean;
     scrollbarAlwaysOn: boolean;
     stripe: boolean;
@@ -321,11 +321,11 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         property: StringConstructor;
         prop: StringConstructor;
         width: {
-            type: (StringConstructor | NumberConstructor)[];
+            type: (NumberConstructor | StringConstructor)[];
             default: string;
         };
         minWidth: {
-            type: (StringConstructor | NumberConstructor)[];
+            type: (NumberConstructor | StringConstructor)[];
             default: string;
         };
         renderHeader: import("vue").PropType<(data: {
@@ -347,7 +347,7 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         columnKey: StringConstructor;
         align: StringConstructor;
         headerAlign: StringConstructor;
-        showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+        showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
         fixed: (BooleanConstructor | StringConstructor)[];
         formatter: import("vue").PropType<(row: any, column: import("./src/table-column/defaults").TableColumnCtx<any>, cellValue: any, index: number) => string | import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement, {
             [key: string]: any;
@@ -379,11 +379,11 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         property: StringConstructor;
         prop: StringConstructor;
         width: {
-            type: (StringConstructor | NumberConstructor)[];
+            type: (NumberConstructor | StringConstructor)[];
             default: string;
         };
         minWidth: {
-            type: (StringConstructor | NumberConstructor)[];
+            type: (NumberConstructor | StringConstructor)[];
             default: string;
         };
         renderHeader: import("vue").PropType<(data: {
@@ -405,7 +405,7 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
         columnKey: StringConstructor;
         align: StringConstructor;
         headerAlign: StringConstructor;
-        showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+        showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
         fixed: (BooleanConstructor | StringConstructor)[];
         formatter: import("vue").PropType<(row: any, column: import("./src/table-column/defaults").TableColumnCtx<any>, cellValue: any, index: number) => string | import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement, {
             [key: string]: any;
@@ -449,11 +449,11 @@ export declare const ElTableColumn: import("element-plus/es/utils").SFCWithInsta
     property: StringConstructor;
     prop: StringConstructor;
     width: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     minWidth: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     renderHeader: import("vue").PropType<(data: {
@@ -475,7 +475,7 @@ export declare const ElTableColumn: import("element-plus/es/utils").SFCWithInsta
     columnKey: StringConstructor;
     align: StringConstructor;
     headerAlign: StringConstructor;
-    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     fixed: (BooleanConstructor | StringConstructor)[];
     formatter: import("vue").PropType<(row: any, column: import("./src/table-column/defaults").TableColumnCtx<any>, cellValue: any, index: number) => string | import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement, {
         [key: string]: any;
@@ -507,11 +507,11 @@ export declare const ElTableColumn: import("element-plus/es/utils").SFCWithInsta
     property: StringConstructor;
     prop: StringConstructor;
     width: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     minWidth: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     renderHeader: import("vue").PropType<(data: {
@@ -533,7 +533,7 @@ export declare const ElTableColumn: import("element-plus/es/utils").SFCWithInsta
     columnKey: StringConstructor;
     align: StringConstructor;
     headerAlign: StringConstructor;
-    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     fixed: (BooleanConstructor | StringConstructor)[];
     formatter: import("vue").PropType<(row: any, column: import("./src/table-column/defaults").TableColumnCtx<any>, cellValue: any, index: number) => string | import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement, {
         [key: string]: any;

@@ -82,8 +82,8 @@ export declare const ElSteps: import("element-plus/es/utils").SFCWithInstall<imp
     onChange?: ((newVal: number, oldVal: number) => any) | undefined;
 }, {
     readonly active: number;
-    readonly direction: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly space: import("element-plus/es/utils").EpPropMergeType<readonly [NumberConstructor, StringConstructor], unknown, unknown>;
+    readonly direction: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly finishStatus: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "success" | "error" | "wait" | "finish" | "process", unknown>;
     readonly processStatus: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "success" | "error" | "wait" | "finish" | "process", unknown>;
 }>> & {
@@ -228,8 +228,8 @@ export declare const ElSteps: import("element-plus/es/utils").SFCWithInstall<imp
         readonly description: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
         readonly status: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown, "", boolean>;
     }>>, {
-        readonly description: string;
         readonly title: string;
+        readonly description: string;
         readonly status: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown>;
     }>;
 };
@@ -375,8 +375,8 @@ export declare const ElStep: import("element-plus/es/utils").SFCWithInstall<impo
     readonly description: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
     readonly status: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown, "", boolean>;
 }>>, {
-    readonly description: string;
     readonly title: string;
+    readonly description: string;
     readonly status: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "success" | "error" | "wait" | "finish" | "process", unknown>;
 }>>;
 export * from './src/item';

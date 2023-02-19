@@ -77,11 +77,11 @@ declare const _default: {
     property: StringConstructor;
     prop: StringConstructor;
     width: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     minWidth: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     renderHeader: PropType<(data: CI<any>) => VNode<import("vue").RendererNode, import("vue").RendererElement, {
@@ -100,7 +100,7 @@ declare const _default: {
     columnKey: StringConstructor;
     align: StringConstructor;
     headerAlign: StringConstructor;
-    showOverflowTooltip: PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "placement" | "showAfter" | "hideAfter" | "offset" | "effect" | "popperClass" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
+    showOverflowTooltip: PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "placement" | "offset" | "effect" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "showArrow">> | undefined>;
     fixed: (BooleanConstructor | StringConstructor)[];
     formatter: PropType<(row: any, column: TableColumnCtx<any>, cellValue: any, index: number) => string | VNode<import("vue").RendererNode, import("vue").RendererElement, {
         [key: string]: any;

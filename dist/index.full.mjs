@@ -15954,7 +15954,6 @@ const _sfc_main$1Y = /* @__PURE__ */ defineComponent({
       disabled: _disabled,
       shouldAddSpace
     });
-    console.log(tag);
     return (_ctx, _cache) => {
       return openBlock(), createBlock(resolveDynamicComponent(unref(tag)), {
         ref_key: "_ref",

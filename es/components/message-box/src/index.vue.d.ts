@@ -164,7 +164,7 @@ declare const _default: import("vue").DefineComponent<{
             RENDER_FUNCTION?: boolean | "suppress-warning" | undefined;
             FILTERS?: boolean | "suppress-warning" | undefined;
             PRIVATE_APIS?: boolean | "suppress-warning" | undefined;
-            MODE?: 3 | 2 | ((comp: import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions> | null) => 3 | 2) | undefined;
+            MODE?: 2 | 3 | ((comp: import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions> | null) => 2 | 3) | undefined;
         } | undefined;
         data?: ((this: any, vm: any) => any) | undefined;
         computed?: import("vue").ComputedOptions | undefined;

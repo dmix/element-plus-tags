@@ -55,7 +55,7 @@ declare const _default: import("vue").DefineComponent<{
     style: import("../../../utils").EpPropFinalized<(new (...args: any[]) => CSSProperties) | (() => CSSProperties | null) | ((new (...args: any[]) => CSSProperties) | (() => CSSProperties | null))[], unknown, unknown, null, boolean>;
 }>>, {
     height: number;
-    style: import("../../../utils").EpPropMergeType<(new (...args: any[]) => CSSProperties) | (() => CSSProperties | null) | ((new (...args: any[]) => CSSProperties) | (() => CSSProperties | null))[], unknown, unknown>;
     width: number;
+    style: import("../../../utils").EpPropMergeType<(new (...args: any[]) => CSSProperties) | (() => CSSProperties | null) | ((new (...args: any[]) => CSSProperties) | (() => CSSProperties | null))[], unknown, unknown>;
 }>;
 export default _default;

@@ -18,7 +18,7 @@ import { selectKey } from './token.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';
 import ClickOutside from '../../../directives/click-outside/index.mjs';
 import { isValidComponentSize } from '../../../utils/vue/validator.mjs';
-import { useTooltipContentProps } from '../../tooltip/src/content.mjs';
+import { useTooltipContentProps } from '../../tooltip/src/content2.mjs';
 import { iconPropType } from '../../../utils/vue/icon.mjs';
 import { tagProps } from '../../tag/src/tag2.mjs';
 import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '../../../constants/event.mjs';

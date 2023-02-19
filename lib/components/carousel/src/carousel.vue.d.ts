@@ -150,12 +150,12 @@ declare const _default: import("vue").DefineComponent<{
     readonly type: import("../../../utils").EpPropMergeType<StringConstructor, "" | "card", unknown>;
     readonly trigger: import("../../../utils").EpPropMergeType<StringConstructor, "hover" | "click", unknown>;
     readonly height: string;
-    readonly interval: number;
-    readonly arrow: import("../../../utils").EpPropMergeType<StringConstructor, "hover" | "always" | "never", unknown>;
     readonly direction: import("../../../utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
+    readonly arrow: import("../../../utils").EpPropMergeType<StringConstructor, "hover" | "always" | "never", unknown>;
     readonly loop: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly initialIndex: number;
     readonly autoplay: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    readonly interval: number;
     readonly indicatorPosition: import("../../../utils").EpPropMergeType<StringConstructor, "" | "none" | "outside", unknown>;
     readonly pauseOnHover: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
 }>;

@@ -1,7 +1,7 @@
 export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<import("vue").DefineComponent<{
     readonly hideOnClickModal: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly src: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
-    readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "contain" | "none" | "cover" | "scale-down", unknown, "", boolean>;
+    readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "none" | "contain" | "cover" | "scale-down", unknown, "", boolean>;
     readonly loading: {
         readonly type: import("vue").PropType<import("element-plus/es/utils").EpPropMergeType<StringConstructor, "lazy" | "eager", unknown>>;
         readonly required: false;
@@ -31,7 +31,7 @@ export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<imp
     props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
         readonly hideOnClickModal: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         readonly src: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
-        readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "contain" | "none" | "cover" | "scale-down", unknown, "", boolean>;
+        readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "none" | "contain" | "cover" | "scale-down", unknown, "", boolean>;
         readonly loading: {
             readonly type: import("vue").PropType<import("element-plus/es/utils").EpPropMergeType<StringConstructor, "lazy" | "eager", unknown>>;
             readonly required: false;
@@ -58,13 +58,13 @@ export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<imp
         readonly closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly zoomRate: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 1.2, boolean>;
     }>> & {
-        onShow?: (() => any) | undefined;
         onClose?: (() => any) | undefined;
+        onShow?: (() => any) | undefined;
         onError?: ((evt: Event) => any) | undefined;
         onLoad?: ((evt: Event) => any) | undefined;
         onSwitch?: ((val: number) => any) | undefined;
     }>>;
-    emit: ((event: "error", evt: Event) => void) & ((event: "close") => void) & ((event: "load", evt: Event) => void) & ((event: "show") => void) & ((event: "switch", val: number) => void);
+    emit: ((event: "error", evt: Event) => void) & ((event: "close") => void) & ((event: "show") => void) & ((event: "load", evt: Event) => void) & ((event: "switch", val: number) => void);
     prevOverflow: string;
     t: import("../..").Translator;
     ns: {
@@ -308,7 +308,7 @@ export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<imp
 }, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
     readonly hideOnClickModal: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly src: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
-    readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "contain" | "none" | "cover" | "scale-down", unknown, "", boolean>;
+    readonly fit: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "" | "fill" | "none" | "contain" | "cover" | "scale-down", unknown, "", boolean>;
     readonly loading: {
         readonly type: import("vue").PropType<import("element-plus/es/utils").EpPropMergeType<StringConstructor, "lazy" | "eager", unknown>>;
         readonly required: false;
@@ -335,8 +335,8 @@ export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<imp
     readonly closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     readonly zoomRate: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 1.2, boolean>;
 }>> & {
-    onShow?: (() => any) | undefined;
     onClose?: (() => any) | undefined;
+    onShow?: (() => any) | undefined;
     onError?: ((evt: Event) => any) | undefined;
     onLoad?: ((evt: Event) => any) | undefined;
     onSwitch?: ((val: number) => any) | undefined;
@@ -344,7 +344,7 @@ export declare const ElImage: import("element-plus/es/utils").SFCWithInstall<imp
     readonly lazy: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly infinite: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly src: string;
-    readonly fit: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "fill" | "contain" | "none" | "cover" | "scale-down", unknown>;
+    readonly fit: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "fill" | "none" | "contain" | "cover" | "scale-down", unknown>;
     readonly initialIndex: number;
     readonly closeOnPressEscape: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly hideOnClickModal: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;

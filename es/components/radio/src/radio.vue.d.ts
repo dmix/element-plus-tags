@@ -9,7 +9,7 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
     readonly disabled: BooleanConstructor;
-    readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+    readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
 }, {
     props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
         readonly modelValue: import("../../../utils").EpPropFinalized<readonly [StringConstructor, NumberConstructor, BooleanConstructor], unknown, unknown, "", boolean>;
@@ -22,10 +22,10 @@ declare const _default: import("vue").DefineComponent<{
             __epPropKey: true;
         };
         readonly disabled: BooleanConstructor;
-        readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+        readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
         onChange?: ((val: string | number | boolean) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: string | number | boolean) => void) & ((event: "change", val: string | number | boolean) => void);
     ns: {
@@ -67,14 +67,14 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
     readonly disabled: BooleanConstructor;
-    readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+    readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     onChange?: ((val: string | number | boolean) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
 }, {
     readonly disabled: boolean;
     readonly name: string;
-    readonly label: import("../../../utils").EpPropMergeType<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown>;
+    readonly label: import("../../../utils").EpPropMergeType<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown>;
     readonly modelValue: import("../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor, BooleanConstructor], unknown, unknown>;
     readonly border: boolean;
 }>;

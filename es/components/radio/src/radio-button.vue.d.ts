@@ -8,7 +8,7 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
     readonly disabled: BooleanConstructor;
-    readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+    readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
 }, {
     props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
         readonly name: import("../../../utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
@@ -19,7 +19,7 @@ declare const _default: import("vue").DefineComponent<{
             __epPropKey: true;
         };
         readonly disabled: BooleanConstructor;
-        readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+        readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
     }>> & {
         [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
     }>>;
@@ -57,10 +57,10 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
     readonly disabled: BooleanConstructor;
-    readonly label: import("../../../utils").EpPropFinalized<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown, string, boolean>;
+    readonly label: import("../../../utils").EpPropFinalized<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown, string, boolean>;
 }>>, {
     readonly disabled: boolean;
     readonly name: string;
-    readonly label: import("../../../utils").EpPropMergeType<(BooleanConstructor | StringConstructor | NumberConstructor)[], unknown, unknown>;
+    readonly label: import("../../../utils").EpPropMergeType<(NumberConstructor | BooleanConstructor | StringConstructor)[], unknown, unknown>;
 }>;
 export default _default;

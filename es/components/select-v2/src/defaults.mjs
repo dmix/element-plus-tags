@@ -2,7 +2,7 @@ import { placements } from '@popperjs/core';
 import '../../../utils/index.mjs';
 import '../../tooltip/index.mjs';
 import { CircleClose } from '@element-plus/icons-vue';
-import { useTooltipContentProps } from '../../tooltip/src/content.mjs';
+import { useTooltipContentProps } from '../../tooltip/src/content2.mjs';
 import { isValidComponentSize } from '../../../utils/vue/validator.mjs';
 import { definePropType } from '../../../utils/vue/props/runtime.mjs';
 

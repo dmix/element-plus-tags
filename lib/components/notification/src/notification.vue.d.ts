@@ -237,8 +237,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly zIndex: number;
     readonly id: string;
     readonly offset: number;
-    readonly title: string;
     readonly position: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "top-right" | "top-left" | "bottom-right" | "bottom-left", unknown>;
+    readonly title: string;
     readonly onClick: () => void;
     readonly customClass: string;
     readonly showClose: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;

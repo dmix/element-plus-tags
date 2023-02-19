@@ -5,14 +5,14 @@ import '../../../hooks/index.mjs';
 import '../../../tokens/index.mjs';
 import { useTooltipProps, tooltipEmits, useTooltipModelToggle } from './tooltip2.mjs';
 import ElTooltipTrigger from './trigger2.mjs';
-import ElTooltipContent from './content2.mjs';
+import ElTooltipContent from './content.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';
 import { usePopperContainer } from '../../../hooks/use-popper-container/index.mjs';
 import { useId } from '../../../hooks/use-id/index.mjs';
 import { useDelayedToggle } from '../../../hooks/use-delayed-toggle/index.mjs';
 import { isBoolean } from '@vueuse/core';
 import { TOOLTIP_INJECTION_KEY } from '../../../tokens/tooltip.mjs';
-import ElPopperArrow from '../../popper/src/arrow.mjs';
+import ElPopperArrow from '../../popper/src/arrow2.mjs';
 
 const _hoisted_1 = ["innerHTML"];
 const _hoisted_2 = { key: 1 };

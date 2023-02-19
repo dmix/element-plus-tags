@@ -8,11 +8,11 @@ declare const _default: import("vue").DefineComponent<{
         default: number;
     };
     width: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     minWidth: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     align: {
@@ -41,11 +41,11 @@ declare const _default: import("vue").DefineComponent<{
         default: number;
     };
     width: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     minWidth: {
-        type: (StringConstructor | NumberConstructor)[];
+        type: (NumberConstructor | StringConstructor)[];
         default: string;
     };
     align: {
@@ -67,9 +67,9 @@ declare const _default: import("vue").DefineComponent<{
 }>>, {
     label: string;
     width: string | number;
+    className: string;
     minWidth: string | number;
     span: number;
-    className: string;
     align: string;
     labelAlign: string;
     labelClassName: string;

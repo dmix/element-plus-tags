@@ -55,9 +55,9 @@ export declare const ElPagination: import("element-plus/es/utils").SFCWithInstal
 }, {
     readonly small: boolean;
     readonly disabled: boolean;
-    readonly background: boolean;
     readonly popperClass: string;
     readonly layout: string;
+    readonly background: boolean;
     readonly pagerCount: number;
     readonly pageSizes: number[];
     readonly prevText: string;

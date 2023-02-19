@@ -6,8 +6,8 @@ export declare const ElCollapse: import("element-plus/es/utils").SFCWithInstall<
         readonly accordion: BooleanConstructor;
         readonly modelValue: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue) | ((new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue))[], unknown, unknown, () => [], boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
         onChange?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
+        "onUpdate:modelValue"?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", value: import("./src/collapse").CollapseModelValue) => void) & ((event: "change", value: import("./src/collapse").CollapseModelValue) => void);
     activeNames: import("vue").Ref<(string | number)[]>;
@@ -20,8 +20,8 @@ export declare const ElCollapse: import("element-plus/es/utils").SFCWithInstall<
     readonly accordion: BooleanConstructor;
     readonly modelValue: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue) | ((new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue))[], unknown, unknown, () => [], boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
     onChange?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
+    "onUpdate:modelValue"?: ((value: import("./src/collapse").CollapseModelValue) => any) | undefined;
 }, {
     readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue) | ((new (...args: any[]) => import("./src/collapse").CollapseModelValue & {}) | (() => import("./src/collapse").CollapseModelValue))[], unknown, unknown>;
     readonly accordion: boolean;

@@ -84,8 +84,8 @@ declare const _default: import("vue").DefineComponent<{
     onChange?: ((newVal: number, oldVal: number) => any) | undefined;
 }, {
     readonly active: number;
-    readonly direction: import("../../../utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly space: import("../../../utils").EpPropMergeType<readonly [NumberConstructor, StringConstructor], unknown, unknown>;
+    readonly direction: import("../../../utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly finishStatus: import("../../../utils").EpPropMergeType<StringConstructor, "success" | "error" | "wait" | "finish" | "process", unknown>;
     readonly processStatus: import("../../../utils").EpPropMergeType<StringConstructor, "success" | "error" | "wait" | "finish" | "process", unknown>;
 }>;

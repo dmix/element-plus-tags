@@ -96,8 +96,8 @@ declare const _default: import("vue").DefineComponent<{
             __epPropKey: true;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
         onChange?: ((val: string | number | boolean) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
         onInput?: ((val: string | number | boolean) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: string | number | boolean) => void) & ((event: "change", val: string | number | boolean) => void) & ((event: "input", val: string | number | boolean) => void);
@@ -251,8 +251,8 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     onChange?: ((val: string | number | boolean) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     onInput?: ((val: string | number | boolean) => any) | undefined;
 }, {
     readonly disabled: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -260,8 +260,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly name: string;
     readonly modelValue: import("element-plus/es/utils").EpPropMergeType<readonly [BooleanConstructor, StringConstructor, NumberConstructor], unknown, unknown>;
     readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly value: import("element-plus/es/utils").EpPropMergeType<readonly [BooleanConstructor, StringConstructor, NumberConstructor], unknown, unknown>;
     readonly width: import("element-plus/es/utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
+    readonly value: import("element-plus/es/utils").EpPropMergeType<readonly [BooleanConstructor, StringConstructor, NumberConstructor], unknown, unknown>;
     readonly borderColor: string;
     readonly inlinePrompt: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly activeText: string;

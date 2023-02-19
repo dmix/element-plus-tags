@@ -44,7 +44,7 @@ declare const _default: import("vue").DefineComponent<{
     };
     uiLoading: import("vue").Ref<boolean>;
     ElSkeletonItem: import("vue").DefineComponent<{
-        readonly variant: import("../../../utils").EpPropFinalized<StringConstructor, "text" | "button" | "circle" | "image" | "caption" | "h1" | "h3" | "p" | "rect", unknown, "text", boolean>;
+        readonly variant: import("../../../utils").EpPropFinalized<StringConstructor, "text" | "button" | "circle" | "caption" | "image" | "rect" | "h1" | "h3" | "p", unknown, "text", boolean>;
     }, {
         ns: {
             namespace: import("vue").Ref<string>;
@@ -66,9 +66,9 @@ declare const _default: import("vue").DefineComponent<{
         };
         PictureFilled: import("vue").DefineComponent<{}, {}, {}, import("vue").ComputedOptions, import("vue").MethodOptions, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{}>>, {}>;
     }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
-        readonly variant: import("../../../utils").EpPropFinalized<StringConstructor, "text" | "button" | "circle" | "image" | "caption" | "h1" | "h3" | "p" | "rect", unknown, "text", boolean>;
+        readonly variant: import("../../../utils").EpPropFinalized<StringConstructor, "text" | "button" | "circle" | "caption" | "image" | "rect" | "h1" | "h3" | "p", unknown, "text", boolean>;
     }>>, {
-        readonly variant: import("../../../utils").EpPropMergeType<StringConstructor, "text" | "button" | "circle" | "image" | "caption" | "h1" | "h3" | "p" | "rect", unknown>;
+        readonly variant: import("../../../utils").EpPropMergeType<StringConstructor, "text" | "button" | "circle" | "caption" | "image" | "rect" | "h1" | "h3" | "p", unknown>;
     }>;
 }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
     readonly animated: import("../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;

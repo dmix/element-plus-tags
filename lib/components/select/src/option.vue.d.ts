@@ -1,9 +1,9 @@
 declare const _default: import("vue").DefineComponent<{
     value: {
         required: true;
-        type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+        type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
     };
-    label: (StringConstructor | NumberConstructor)[];
+    label: (NumberConstructor | StringConstructor)[];
     created: BooleanConstructor;
     disabled: {
         type: BooleanConstructor;
@@ -46,9 +46,9 @@ declare const _default: import("vue").DefineComponent<{
 }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
     value: {
         required: true;
-        type: (BooleanConstructor | ObjectConstructor | StringConstructor | NumberConstructor)[];
+        type: (ObjectConstructor | NumberConstructor | BooleanConstructor | StringConstructor)[];
     };
-    label: (StringConstructor | NumberConstructor)[];
+    label: (NumberConstructor | StringConstructor)[];
     created: BooleanConstructor;
     disabled: {
         type: BooleanConstructor;

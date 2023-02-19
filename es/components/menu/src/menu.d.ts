@@ -62,9 +62,9 @@ declare const _default: import("vue").DefineComponent<{
     onSelect?: ((index: string, indexPath: string[], item: MenuItemClicked, routerResult?: Promise<void | NavigationFailure> | undefined) => any) | undefined;
     onOpen?: ((index: string, indexPath: string[]) => any) | undefined;
 }, {
-    readonly mode: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly ellipsis: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly collapse: boolean;
+    readonly mode: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "vertical" | "horizontal", unknown>;
     readonly defaultActive: string;
     readonly defaultOpeneds: string[];
     readonly menuTrigger: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "hover" | "click", unknown>;

@@ -36,7 +36,7 @@ declare const _default: import("vue").DefineComponent<{
     };
     readonly showSeconds: import("../../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     readonly arrowControl: BooleanConstructor;
-    readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A") | ((new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A"))[], unknown, unknown, "", boolean>;
+    readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a") | ((new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a"))[], unknown, unknown, "", boolean>;
 }, {
     props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
         readonly disabledHours: {
@@ -71,7 +71,7 @@ declare const _default: import("vue").DefineComponent<{
         };
         readonly showSeconds: import("../../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly arrowControl: BooleanConstructor;
-        readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A") | ((new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A"))[], unknown, unknown, "", boolean>;
+        readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a") | ((new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a"))[], unknown, unknown, "", boolean>;
     }>> & {
         onChange?: ((...args: any[]) => any) | undefined;
         "onSelect-range"?: ((...args: any[]) => any) | undefined;
@@ -107,8 +107,8 @@ declare const _default: import("vue").DefineComponent<{
         $props: Partial<{
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -133,7 +133,7 @@ declare const _default: import("vue").DefineComponent<{
                 scrollTop: number;
                 scrollLeft: number;
             }) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "maxHeight" | "always" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "always" | "maxHeight" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -656,8 +656,8 @@ declare const _default: import("vue").DefineComponent<{
         }, string, {
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -1190,8 +1190,8 @@ declare const _default: import("vue").DefineComponent<{
         $props: Partial<{
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -1216,7 +1216,7 @@ declare const _default: import("vue").DefineComponent<{
                 scrollTop: number;
                 scrollLeft: number;
             }) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "maxHeight" | "always" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "always" | "maxHeight" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -1739,8 +1739,8 @@ declare const _default: import("vue").DefineComponent<{
         }, string, {
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -2273,8 +2273,8 @@ declare const _default: import("vue").DefineComponent<{
         $props: Partial<{
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -2299,7 +2299,7 @@ declare const _default: import("vue").DefineComponent<{
                 scrollTop: number;
                 scrollLeft: number;
             }) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "maxHeight" | "always" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "always" | "maxHeight" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -2822,8 +2822,8 @@ declare const _default: import("vue").DefineComponent<{
         }, string, {
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -3356,8 +3356,8 @@ declare const _default: import("vue").DefineComponent<{
         $props: Partial<{
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -3382,7 +3382,7 @@ declare const _default: import("vue").DefineComponent<{
                 scrollTop: number;
                 scrollLeft: number;
             }) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "maxHeight" | "always" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "tag" | "height" | "always" | "maxHeight" | "native" | "wrapStyle" | "wrapClass" | "viewClass" | "viewStyle" | "minSize" | "noresize">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -3905,8 +3905,8 @@ declare const _default: import("vue").DefineComponent<{
         }, string, {
             readonly tag: string;
             readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly always: boolean;
+            readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
             readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly wrapStyle: import("vue").StyleValue;
             readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -4981,8 +4981,8 @@ declare const _default: import("vue").DefineComponent<{
     }, {
         readonly tag: string;
         readonly height: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
-        readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
         readonly always: boolean;
+        readonly maxHeight: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, NumberConstructor], unknown, unknown>;
         readonly native: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly wrapStyle: import("vue").StyleValue;
         readonly wrapClass: import("../../../../utils").EpPropMergeType<readonly [StringConstructor, ArrayConstructor], unknown, unknown>;
@@ -5089,7 +5089,7 @@ declare const _default: import("vue").DefineComponent<{
     };
     readonly showSeconds: import("../../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     readonly arrowControl: BooleanConstructor;
-    readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A") | ((new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A"))[], unknown, unknown, "", boolean>;
+    readonly amPmMode: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a") | ((new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a"))[], unknown, unknown, "", boolean>;
 }>> & {
     onChange?: ((...args: any[]) => any) | undefined;
     "onSelect-range"?: ((...args: any[]) => any) | undefined;
@@ -5097,6 +5097,6 @@ declare const _default: import("vue").DefineComponent<{
 }, {
     readonly arrowControl: boolean;
     readonly showSeconds: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly amPmMode: import("../../../../utils").EpPropMergeType<(new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A") | ((new (...args: any[]) => ("" | "a" | "A") & {}) | (() => "" | "a" | "A"))[], unknown, unknown>;
+    readonly amPmMode: import("../../../../utils").EpPropMergeType<(new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a") | ((new (...args: any[]) => ("" | "A" | "a") & {}) | (() => "" | "A" | "a"))[], unknown, unknown>;
 }>;
 export default _default;

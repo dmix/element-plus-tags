@@ -131,10 +131,10 @@ export declare const ElAlert: import("element-plus/es/utils").SFCWithInstall<imp
 }, {
     readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "success" | "warning" | "info" | "error", unknown>;
     readonly closable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly description: string;
     readonly title: string;
-    readonly effect: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "dark" | "light", unknown>;
+    readonly description: string;
     readonly closeText: string;
+    readonly effect: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "dark" | "light", unknown>;
     readonly showIcon: boolean;
     readonly center: boolean;
 }>> & Record<string, any>;

@@ -233,8 +233,8 @@ declare const _default: import("vue").DefineComponent<{
             readonly disabled: boolean;
             readonly name: string;
             readonly drag: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-            readonly data: Record<string, any>;
             readonly multiple: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+            readonly data: Record<string, any>;
             readonly onError: (err: import("./ajax").UploadAjaxError, rawFile: import("./upload").UploadRawFile) => void;
             readonly onProgress: (evt: import("./upload").UploadProgressEvent, rawFile: import("./upload").UploadRawFile) => void;
             readonly action: string;
@@ -345,7 +345,7 @@ declare const _default: import("vue").DefineComponent<{
             })[], unknown, unknown, import("./upload").UploadRequestHandler, boolean>;
             readonly disabled: BooleanConstructor;
             readonly limit: NumberConstructor;
-        }>> & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "name" | "drag" | "data" | "multiple" | "onError" | "onProgress" | "action" | "method" | "showFileList" | "accept" | "fileList" | "autoUpload" | "listType" | "httpRequest" | "withCredentials" | "beforeUpload" | "onRemove" | "onSuccess" | "onExceed" | "onStart">;
+        }>> & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "name" | "drag" | "multiple" | "data" | "onError" | "onProgress" | "action" | "method" | "showFileList" | "accept" | "fileList" | "autoUpload" | "listType" | "httpRequest" | "withCredentials" | "beforeUpload" | "onRemove" | "onSuccess" | "onExceed" | "onStart">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -621,8 +621,8 @@ declare const _default: import("vue").DefineComponent<{
             readonly disabled: boolean;
             readonly name: string;
             readonly drag: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-            readonly data: Record<string, any>;
             readonly multiple: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+            readonly data: Record<string, any>;
             readonly onError: (err: import("./ajax").UploadAjaxError, rawFile: import("./upload").UploadRawFile) => void;
             readonly onProgress: (evt: import("./upload").UploadProgressEvent, rawFile: import("./upload").UploadRawFile) => void;
             readonly action: string;
@@ -1647,8 +1647,8 @@ declare const _default: import("vue").DefineComponent<{
         readonly disabled: boolean;
         readonly name: string;
         readonly drag: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-        readonly data: Record<string, any>;
         readonly multiple: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+        readonly data: Record<string, any>;
         readonly onError: (err: import("./ajax").UploadAjaxError, rawFile: import("./upload").UploadRawFile) => void;
         readonly onProgress: (evt: import("./upload").UploadProgressEvent, rawFile: import("./upload").UploadRawFile) => void;
         readonly action: string;
@@ -1779,10 +1779,10 @@ declare const _default: import("vue").DefineComponent<{
     readonly type: string;
     readonly disabled: boolean;
     readonly name: string;
-    readonly drag: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly data: Record<string, any>;
     readonly onChange: (uploadFile: import("./upload").UploadFile, uploadFiles: import("./upload").UploadFiles) => void;
+    readonly drag: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly multiple: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    readonly data: Record<string, any>;
     readonly onError: (error: Error, uploadFile: import("./upload").UploadFile, uploadFiles: import("./upload").UploadFiles) => void;
     readonly onProgress: (evt: import("./upload").UploadProgressEvent, uploadFile: import("./upload").UploadFile, uploadFiles: import("./upload").UploadFiles) => void;
     readonly action: string;
